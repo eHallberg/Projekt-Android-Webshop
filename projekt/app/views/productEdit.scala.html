@@ -1,0 +1,48 @@
+@(categories: List[Categories])
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet"
+	href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link
+	href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+	rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script
+	src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	Menu:
+	<a href="/">Startpage</a>
+
+	<h1>Create new product</h1>
+
+	<form action="@routes.Product.productEdit" method="post" role="form">
+		<div class="form-group">
+			<label for="product-name">Product name</label> <input type="text"
+				class="form-control" id="product-name" name="name"
+				placeholder="Product name">
+		</div>
+		<div class="form-group">
+			<label for="product-desc">Product description</label> <input type="text"
+				class="form-control" id="product-desc" name="description"
+				placeholder="Product desc">
+		</div>
+		<div class="form-group">
+			<label for="product-desc">Product price</label> <input type="text"
+				class="form-control" id="product-price" name="price"
+				placeholder="Product price">
+		</div>
+		<div class="form-group">
+			<label for="product-cat">Product category</label> <select
+				name="category-id" class="form-control"> @for(category <-
+				categories) {
+				<option value="@category.id">@category.name</option> }
+			</select>
+		</div>
+		<button type="submit" class="btn btn-default">Submit</button>
+	</form>
+
+</body>
+</html>

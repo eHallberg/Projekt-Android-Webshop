@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f666"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/prod_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/product_name"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/prod_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/product_desc"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/prod_price"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/product_price"
+        android:singleLine="true" />
+
+    <Spinner
+        android:id="@+id/category_menu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Product_desc"
+        android:singleLine="true"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/create_prod"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/create" />
+
+</LinearLayout>

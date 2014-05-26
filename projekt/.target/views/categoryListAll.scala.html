@@ -1,0 +1,20 @@
+@(categories: List[Categories])
+
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head><body>
+Menu: <a href="@routes.Category.categoryEdit">Create new category</a>
+<h1>Categories</h1>
+
+<ul>
+	@for(category <- categories){
+		<li><a href="categoryShowOne/@category.id">@category.name</li></a>
+	}
+</ul>
+
+</body></html>

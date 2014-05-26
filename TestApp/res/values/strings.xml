@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name">TestApp</string>
+    <string name="product_price">Product price</string>
+    <string name="product_desc">Product desc</string>
+    <string name="product_name">Product name</string>
+    <string name="pls_click_me">PLS CLICK ME</string>
+    <string name="category_name">Category name</string>
+    <string name="test">Test</string>
+    <string name="create">Create</string>
+    <string name="test2">test2</string>
+    <string name="test3">test3</string>
+    <string name="test4">test4</string>
+    <string name="hellooo">hellooo</string>
+    <string name="hello">hello</string>
+    <string name="create_cateogry">Create Cateogry</string>
+    <string name="create_product">Create Product</string>
+    <string name="list_category">List Category</string>
+    <string name="list_product">List Product</string>
+    <string name="login">Login</string>
+    <string name="create_category">Create Category</string>
+    <string name="loading_">Loading</string>
+    <string name="name">name</string>
+    <string name="password">password</string>
+    <string name="my_product">My product</string>
+    <string name="edit">Edit</string>
+    <string name="testtest">TestTest</string>
+    <string name="create_cat">create_cat</string>
+    <string name="my_cat">TODO</string>
+    <string name="my_category">create_category</string>
+    <string name="logout">logout</string>
+    <string name="Add">Add</string>
+    <string name="quantity">Quantity</string>
+
+    <string-array name="array_name">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+</resources>

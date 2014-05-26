@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@string/create_category"
+        android:title="@string/create_cateogry"/>
+    <item
+        android:id="@string/create_product"
+        android:title="@string/create_product"/>
+    <item
+        android:id="@string/list_category"
+        android:title="@string/list_category"/>
+    <item 
+        android:id="@string/list_product"
+        android:title="@string/list_product"/>
+    <item 
+        android:id="@string/logout"
+        android:title="@string/logout"/>
+
+</menu>
