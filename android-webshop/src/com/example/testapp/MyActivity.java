@@ -12,7 +12,7 @@ import android.view.MenuItem;
 
 public class MyActivity extends Activity {
 
-  static protected final String ip = "localhost";
+  static protected final String ip = "192.168.0.101";
 
   static protected List<Cookie> cookies;
 
